@@ -1,0 +1,135 @@
+body {
+  padding-left: 20%;
+  background-color: #333333;
+}
+
+header {
+  width: 780px;
+  height: 70px;
+  display: flex;
+  padding: 0px 15px 0px 25px;  
+  background-color: white;
+}
+
+.logo-text {
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+h2{
+  font-size: 30px;
+  font-weight: 500;
+  font-family:Arial, sans-serif;
+}
+        
+.logo {
+ width: 25px;
+ height: 25px;
+ margin: 0px 10px 8px 0px;
+
+}
+
+.nav-ul{
+  display: flex;
+  margin-top: 20px;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-li{
+  margin: 5px;
+}
+
+
+
+main{
+  width: 780px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+  background-color: #f5f5f5;
+}
+
+.contact{
+  flex-basis: 290px ;
+}
+
+.form{
+  padding-top:20px;
+  flex-basis: 480px;
+}
+
+input{
+  width: 170px;
+  height: 28px;
+  padding-left: 8px;
+  margin: 14px 0px 14px 40px;
+}
+
+form{
+  margin-left: 30px;
+}
+
+.title{
+  width: 400px;
+}
+
+.commit{
+  width: 400px;
+  height: 30px;
+  padding-bottom: 70px ;
+}
+
+.submit{
+  width: 110px;
+  height: 35px;
+  border: none;
+  color: white;
+  font-size: 11px;
+  background-color: #0bbfb3;
+}
+
+.map{
+  width: 780px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+footer{
+  width: 780px;
+  display: flex;
+  color:  #fff;
+  padding: 0px 20px;
+  background-color: #141414;
+}
+
+.div-f1{
+  flex-basis: 33%;
+  font-family:Arial, sans-serif;
+  
+}
+
+.div-f2{
+  opacity: 0.9;
+  flex-basis: 33%;
+  list-style: none;
+  padding-top: 15px;
+  font-family:Arial, sans-serif;
+}
+
+.div-f3{
+  opacity: 0.9;
+  display: flex;
+  flex-basis: 33%;
+  list-style: none;
+  font-family:Arial, sans-serif;
+}
+
+ul{
+  list-style: none;
+ 
+}
+
+.paragrif{
+  opacity: 0.9;
+}
